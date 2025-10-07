@@ -5,8 +5,8 @@
 1234
 12345
 '''
-
-for i in range(1,6):
+n=int(input("Enter count:"))
+for i in range(1,n+1):
     for j in range(1,i+1):
         print(j, end="")
     print("")
